@@ -283,6 +283,63 @@ main {
 .accordion.on .accordion_con {
   display: block;
 }
+.accordion_con li + li {
+  margin-top: 18px;
+}
+.accordion_con li p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  font-family: "Pretendard-SemiBold";
+  color: #FF7654;
+}
+.accordion_con li p::before {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 99px;
+  background-color: #FF7654;
+}
+.accordion_con li span {
+  display: inline-block;
+  padding-left: 12px;
+  line-height: 24px;
+}
+.accordion_con p {
+  margin-bottom: 12px;
+  font-family: "Pretendard-SemiBold";
+  font-size: 16px;
+}
+.accordion_con table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+  border-top: 2px solid #FF7654;
+}
+.accordion_con th {
+  padding: 8px 0;
+  border-right: 1px solid #c6c6c6;
+  background-color: #EEE9DF;
+  font-size: 12px;
+}
+.accordion_con th:last-of-type {
+  border-right: none;
+}
+.accordion_con td {
+  padding: 8px;
+  border-top: 1px solid #c6c6c6;
+  border-bottom: 1px solid #c6c6c6;
+  border-right: 1px solid #c6c6c6;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+}
+.accordion_con td:last-of-type {
+  border-right: none;
+  text-align: left;
+}
 
 @media screen and (max-width: 720px) {
   .br_mo {
