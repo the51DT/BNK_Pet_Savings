@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BNK 펫 적금</title>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/pet_savings.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="btn_back" href="#"><span class="hidden">뒤로가기</span></a>
+      <h1><a href="#"><img src="./assets/img/logo.png" alt="logo"></a></h1>
+      <button class="btn_more"><span class="hidden">더보기</span></button>
+    </header>
+    <main>
+      <div class="box">
+        <div class="tag">NEW</div>
+        <p class="sub_title">펫 적금(정액적립식)</p>
+        <h2 class="title">댕냥이의 난생처음 첫 <br class="br_mo">재테크 <br class="br">반려동물을 위한 <br class="br_mo">정기적금</h2>
+
+        <div class="tag_wrap">
+          <div class="tag red">정기적금</div>
+          <div class="tag yellow">누구나 가입</div>
+          <div class="tag gray">우대금리</div>
+        </div>
+
+        <div class="pet_wrap">
+          <img src="./assets/img/pet.png" alt="pet">
+          <div class="rate_wrap">
+            <div>
+              <p>최고 금리</p>
+              <p class="rate">4.5%</p>
+            </div>
+            <div>
+              <p>기본 금리</p>
+              <p class="rate">3.6%</p>
+              <p class="text_gary">12개월 기준</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="btn_join">가입하기</button>
+      </div>
+
+      <div class="box">
+        <div class="flex_wrap">
+          <div class="calc_wrap">
+            <h3>이자 계산기</h3>
+            <div>
+              <div class="calc">
+                <p>기간</p>
+                <div>
+                  <div class="calc_box">6개월<span>기본 3.1%</span></div>
+                  <div class="calc_box on">12개월<span>기본 3.6%</span></div>
+                </div>
+              </div>
+              <div class="calc">
+                <p>월 납입 금액</p>
+                <div>
+                  <div class="calc_box">10만원</div>
+                  <div class="calc_box on">50만원</div>
+                  <div class="calc_box">100만원</div>
+                  <div class="calc_box">200만원</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="profit_wrap">
+            <p>우대 금리 혜택</p>
+            <ul>
+              <li class="on">
+                <p>신용카드 이용실적 보유 시</p>
+                <p class="profit">0.2%</p>
+              </li>
+              <li class="on">
+                <p>동물등록증 등록 시</p>
+                <p class="profit">0.1%</p>
+              </li>
+              <li>
+                <p>펫 다이어리 작성 시</p>
+                <p class="profit">0.5%</p>
+              </li>
+              <li>
+                <p>적금 금액 자동이체 시</p>
+                <p class="profit">0.1%</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="total_wrap">
+          <div>기본 3.6% + <span>우대 0.9%</span></div>
+          <div class="total">금리 <span>4.5%</span></div>
+        </div>
+
+        <div class="payment_wrap">
+          <div>월 50만원 납입 시</div>
+          <div>총 세후 이자<p class="payment">123,737원</p></div>
+        </div>
+      </div>
+
+      <div class="accordion">
+        <div class="accordion_title">상품 안내</div>
+        <div class="accordion_con">
+          안녕하세요.
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion_title">금리 정보</div>
+        <div class="accordion_con">
+          안녕하세요.2
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion_title">상품 약관</div>
+        <div class="accordion_con">
+          안녕하세요.3
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function(){
+      const accordion = document.querySelectorAll('.accordion');
+
+      accordion.forEach(el => {
+        el.addEventListener('click', () => {
+          el.classList.toggle('on');
+        });
+      });
+    });
+  </script>
+</body>
+</html>
