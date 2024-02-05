@@ -162,7 +162,7 @@ main {
   font-size: 16px;
 }
 .calc_box span {
-  margin-left: 28px;
+  margin-left: 24px;
   font-family: "Pretendard-Regular";
   font-size: 12px;
 }
@@ -203,7 +203,7 @@ main {
   background-color: #c6c6c6;
   background-image: url(../img/check.svg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: 50% 50%;
 }
 .profit_wrap li.on::after {
   background-color: #FF7654;
