@@ -292,6 +292,7 @@ main {
   gap: 8px;
   margin-bottom: 10px;
   font-family: "Pretendard-SemiBold";
+  font-size: 16px;
   color: #FF7654;
 }
 .accordion_con li p::before {
@@ -307,7 +308,7 @@ main {
   padding-left: 12px;
   line-height: 24px;
 }
-.accordion_con p {
+.accordion_con>p {
   margin-bottom: 12px;
   font-family: "Pretendard-SemiBold";
   font-size: 16px;
