@@ -12,13 +12,13 @@
 }
 
 .wrap {
-  max-width: 994px;
   margin: 0 auto;
   padding-bottom: 60px;
   background-color: #EEE9DF;
   background-image: url(../img/BG.png);
   background-position: top left;
   background-repeat: no-repeat;
+  background-size: contain;
   font-family: "Pretendard-Regular";
   font-size: 14px;
   color: #2D2425;
