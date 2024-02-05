@@ -55,7 +55,7 @@ main {
   padding: 30px 28px;
   background-color: #FFF;
   border-radius: 12px;
-  box-shadow: 0 1px 1px #00000015;
+  box-shadow: 0 1px 1px #00000026;
 }
 .box:first-of-type {
   margin-top: 20px;
@@ -255,7 +255,7 @@ main {
   padding: 20px 28px;
   border-radius: 12px;
   background-color: #FFF;
-  box-shadow: 0 1px 1px #00000015;
+  box-shadow: 0 1px 1px #00000026;
 }
 .accordion:last-of-type {
   margin-bottom: 0;
