@@ -47,6 +47,9 @@ header .pc {
   text-align: center;
   border-bottom: 2px solid #cb2b11;
 }
+header .pc img {
+  width: 1000px;
+}
 header .mo {
   display: none;
 }
@@ -186,6 +189,36 @@ header .mo h2 {
   width: 2px;
   height: 2px;
   background: #9e9e9e;
+}
+.lnb>div {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.lnb>div>div {
+  position: relative;
+  width: 54px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 10px;
+  text-align: center;
+  color: #757575;
+}
+.lnb>div>div:not(:first-of-type):before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 1px;
+  height: 14px;
+  background: #e0e0e1;
+}
+.lnb>div>div img {
+  margin: 0 auto;
+  width: 24px;
+  height: 24px;
 }
 
 footer {
