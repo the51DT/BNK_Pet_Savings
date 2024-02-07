@@ -89,24 +89,39 @@ header .mo h2 {
   width: 1000px;
   margin: 12px auto 22px;
 }
-.print div {
+.print div:first-of-type {
   display: flex;
   align-items: center;
   gap: 16px;
 }
-.print div span {
+.print div:first-of-type span {
   font-family: "Pretendard";
   font-size: 13px;
   font-weight: 500;
 }
-.print div span:last-of-type {
+.print div:first-of-type span:last-of-type {
   font-weight: 600;
   color: #cb2b11;
 }
-.print>img {
+.print div:last-of-type {
   margin-left: auto;
-  width: 146px;
-  height: 21px;
+}
+.print div:last-of-type button {
+  padding: 1px 5px 1px 20px;
+  border: 1px solid #e0e0e1;
+  border-radius: 2px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: left 5px center;
+  text-align: right;
+  font-size: 12px;
+  color: #757575;
+}
+.print div:last-of-type button:first-of-type {
+  background-image: url(../img/ico_plus.png);
+}
+.print div:last-of-type button:last-of-type {
+  background-image: url(../img/ico_print.png);
 }
 .flex {
   position: relative;
@@ -593,7 +608,7 @@ main {
   .wrap {
     width: 100%;
     margin: 103px auto 0;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 143px;
     background-color: #EEE9DF;
     background-image: url(../img/BG.png);
@@ -633,7 +648,7 @@ main {
   main {
     padding: 0 16px;
   }
-  aside {
+  .lnb {
     display: none;
   }
   .print {
