@@ -636,6 +636,9 @@ main {
   aside {
     display: none;
   }
+  .print {
+    display: none;
+  }
   footer {
     height: 0;
   }
